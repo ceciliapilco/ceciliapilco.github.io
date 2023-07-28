@@ -1,0 +1,105 @@
+ header {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
+    background-color: rgb(3, 1, 27);
+
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+  /* Estilos para el contenedor circular */
+.circle-container {
+    width: 190px; /* Define el tamaño del círculo */
+    height: 190px; /* Define el tamaño del círculo */
+    border-radius: 50%; /* Establece un radio del 50% para crear la forma de círculo */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que esté fuera del círculo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilos para la imagen dentro del círculo */
+  .circle-container img {
+    width: 100%; /* Asegura que la imagen ocupe todo el contenedor */
+    height: 100%; /* Asegura que la imagen ocupe todo el contenedor */
+    object-fit: cover; /* Escala y recorta la imagen para que encaje en el círculo */
+  }
+  
+
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left-part {
+    flex: 1;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+
+  .right-part {
+    flex: 1;
+    padding: 20px;
+    background-color: #e6e6e6;
+  }
+
+  /*para lineas*/
+  .underlined {
+    text-decoration: underline;
+    border-bottom: 1px solid rgb(22, 21, 21); /* Ajusta el color y grosor de la línea inferior */
+    border-top: 1px solid rgb(10, 10, 10); /* Ajusta el color y grosor de la línea superior */
+  }
+  
+  /*iconos*/
+  div{
+    display: inline-block;
+    }
+
+/*whatsapp*/
+#contactowatsapp{
+  width: 64px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+body {
+  margin:0;
+  padding:0;
+}
+
+.container {
+  display: flex; /* Utilizamos flexbox para posicionar los elementos uno al lado del otro */
+
+}
+
+/*derecha y izquierda*/
+.right-part {
+  flex: 1; /* Ambos elementos ocupan el mismo espacio */
+  padding: 40px;
+  
+}
+
+.left-part {
+  background-color: #6c6c6d;
+}
+
+.right-part {
+  background-color: #f1f1f1;
+}
+
+/*agrandar letra*/
+  h2  {
+    font-size: 50px;
+  }
+
+
+  /*color de letra*/
+h1 {
+  color: rgb(204, 204, 13);
+}
+
+.right-part .banner .firstname {
+  font-size: 4rem;
+}
